@@ -8,7 +8,7 @@ export function ContactSection() {
   return (
     <section id="contact" className="px-6 md:px-12 py-16 md:py-24">
       <Reveal>
-        <SectionLabel num="08" label="Contact" />
+        <SectionLabel num="10" label="Contact" />
         <h2 className="font-display font-bold text-[clamp(28px,5vw,52px)] leading-[1.05] mb-4 text-text">
           Get in touch
         </h2>

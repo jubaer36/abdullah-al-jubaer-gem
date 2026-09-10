@@ -8,9 +8,12 @@ export function SkillsSection() {
     <section id="skills" className="px-6 md:px-12 py-16 md:py-24 border-b border-border">
       <Reveal>
         <SectionLabel num="01" label="Skills" />
-        <h2 className="font-display font-bold text-[clamp(28px,5vw,52px)] leading-[1.05] mb-12 text-text">
-          What I do
+        <h2 className="font-display font-bold text-[clamp(28px,5vw,52px)] leading-[1.05] text-text">
+          Stuffs I am good at
         </h2>
+        <p className="mt-1 mb-12 font-sans text-[13px] italic text-muted">
+          At least I would like to believe so
+        </p>
       </Reveal>
 
       <div className="space-y-10">

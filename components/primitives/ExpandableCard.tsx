@@ -4,6 +4,11 @@ import { useId, useState } from "react";
 import { ChevronDownIcon } from "@/components/primitives/icons";
 import { cn } from "@/lib/utils";
 
+/* Global switch: hide every "Additional details" panel for now.
+   Set back to true to restore the expandable behaviour once the
+   detail content is ready. */
+const DETAILS_ENABLED = false;
+
 export function ExpandableCard({
   header,
   children,
@@ -17,6 +22,21 @@ export function ExpandableCard({
 }) {
   const [open, setOpen] = useState(defaultOpen);
   const panelId = useId();
+
+  const expandable = DETAILS_ENABLED && Boolean(children);
+
+  if (!expandable) {
+    return (
+      <div
+        className={cn(
+          "rounded-lg border border-border bg-surface transition-all duration-300 hover:border-signal/40",
+          className
+        )}
+      >
+        <div className="p-6">{header}</div>
+      </div>
+    );
+  }
 
   const toggle = () => setOpen((o) => !o);
 

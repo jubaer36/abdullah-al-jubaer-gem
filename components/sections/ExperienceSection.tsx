@@ -8,9 +8,9 @@ export function ExperienceSection() {
   return (
     <section id="experience" className="px-6 md:px-12 py-16 md:py-24 border-b border-border">
       <Reveal>
-        <SectionLabel num="02" label="Experience" />
+        <SectionLabel num="03" label="Experience" />
         <h2 className="font-display font-bold text-[clamp(28px,5vw,52px)] leading-[1.05] mb-12 text-text">
-          Experience
+          Roles I played so far
         </h2>
       </Reveal>
 

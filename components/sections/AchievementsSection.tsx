@@ -10,12 +10,15 @@ export function AchievementsSection() {
   return (
     <section id="achievements" className="px-6 md:px-12 py-16 md:py-24 border-b border-border">
       <Reveal>
-        <SectionLabel num="06" label="Achievements" />
+        <SectionLabel num="07" label="Achievements" />
         <h2 className="font-display font-bold text-[clamp(28px,5vw,52px)] leading-[1.05] mb-4 text-text">
           Achievements
         </h2>
-        <p className="text-sm text-soft max-w-xl mb-12">
-          I&apos;ve competed in numerous datathons and hackathons, progressing to top teams in most of them.
+        <p className="text-sm text-soft mb-12 leading-relaxed">
+          My win rate is relatively low compared to the number of hackathons and datathons I&apos;ve
+          participated in. As everyone says, failure is the pillar of success. I, for one, have yet
+          to find that pillar. I&apos;ve competed in many events and progressed to the final round in
+          a good number of them; these are the few where I actually won something.
         </p>
       </Reveal>
 

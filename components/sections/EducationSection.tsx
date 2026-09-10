@@ -8,9 +8,9 @@ export function EducationSection() {
   return (
     <section id="education" className="px-6 md:px-12 py-16 md:py-24 border-b border-border">
       <Reveal>
-        <SectionLabel num="03" label="Education" />
+        <SectionLabel num="04" label="Education" />
         <h2 className="font-display font-bold text-[clamp(28px,5vw,52px)] leading-[1.05] mb-12 text-text">
-          Education
+          Learning Homes
         </h2>
       </Reveal>
 

@@ -11,9 +11,12 @@ export function ResearchSection() {
     <section id="research" className="px-6 md:px-12 py-16 md:py-24 border-b border-border">
       <Reveal>
         <SectionLabel num="05" label="Research" />
-        <h2 className="font-display font-bold text-[clamp(28px,5vw,52px)] leading-[1.05] mb-12 text-text">
+        <h2 className="font-display font-bold text-[clamp(28px,5vw,52px)] leading-[1.05] text-text">
           Research
         </h2>
+        <p className="mt-1 mb-6 font-sans text-[15px] italic text-muted">
+          which takes most of my time
+        </p>
       </Reveal>
 
       <div className="space-y-3">

@@ -28,5 +28,4 @@ export const achievements: Achievement[] = [
     desc: "Deepfake detection with fine-tuned ML models; wrote a technical report.",
     link: "https://drive.google.com/file/d/1qZnPvQ-lz5LA3q-0hW6LqLIRKxDfmueg/view?usp=drive_link",
   },
-  
 ];

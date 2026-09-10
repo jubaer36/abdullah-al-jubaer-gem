@@ -2,6 +2,10 @@
    Repo name: abdullah-al-jubaer-gem → served at
    https://jubaer36.github.io/abdullah-al-jubaer-gem/
    Used by next.config.ts (basePath/assetPrefix) and by any code that
-   links to a raw /public asset — Next.js does NOT auto-prefix those. */
+   links to a raw /public asset — Next.js does NOT auto-prefix those.
+
+   Only the production build (`next build`) is served from the project
+   sub-path; `next dev` serves from "/", so basePath is empty there. */
 export const repoName = "abdullah-al-jubaer-gem";
-export const basePath = `/${repoName}`;
+export const basePath =
+  process.env.NODE_ENV === "production" ? `/${repoName}` : "";
