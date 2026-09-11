@@ -1,6 +1,6 @@
 export const experience = [
   {
-    company: "Medi Merchandise (Startup)",
+    company: "Medi Merchandise",
     role: "Full Stack Developer",
     date: "Remote",
     desc: "Built a platform managing supply chain, sales, and investment for a medical merchandise startup.",

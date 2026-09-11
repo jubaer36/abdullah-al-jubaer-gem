@@ -6,8 +6,8 @@ const graphNodes = [
   { label: "Skills", href: "#skills", y: 26 },
   { label: "Experience", href: "#experience", y: 74 },
   { label: "Education", href: "#education", y: 122 },
-  { label: "Projects", href: "#projects", y: 170 },
-  { label: "Research", href: "#research", y: 218 },
+  { label: "Research", href: "#research", y: 170 },
+  { label: "Projects", href: "#projects", y: 218 },
   { label: "Achievements", href: "#achievements", y: 266 },
   { label: "Beyond work", href: "#hobbies", y: 314 },
   { label: "Contact", href: "#contact", y: 362 },
@@ -15,7 +15,7 @@ const graphNodes = [
 
 function NodeGraph() {
   const rootX = 60;
-  const rootY = 201;
+  const rootY = 194;
   const leafX = 330;
 
   return (
@@ -87,7 +87,7 @@ function NodeGraph() {
 export function HeroSection() {
   return (
     <section className="min-h-[85vh] flex flex-col justify-center px-6 md:px-12 py-24 border-b border-border">
-      <div className="flex items-start justify-between gap-12">
+      <div className="flex items-center justify-between gap-12">
         <div className="max-w-2xl">
           <div className="inline-flex items-center gap-2 mb-6 px-3 py-1.5 rounded-full border border-border bg-surface">
             <span className="relative flex h-1.5 w-1.5 rounded-full bg-signal node-pulse" />
@@ -100,9 +100,13 @@ export function HeroSection() {
             Hi, I&apos;m Jubaer.
           </h1>
 
-          <p className="text-base leading-relaxed text-soft max-w-xl mb-8">
-            {hero.description}
-          </p>
+          <div className="space-y-4 mb-8 max-w-xl">
+            {hero.description.map((paragraph, i) => (
+              <p key={i} className="text-base leading-relaxed text-soft">
+                {paragraph}
+              </p>
+            ))}
+          </div>
 
           <div className="flex flex-wrap items-center gap-3 mb-14">
             <a
@@ -111,7 +115,7 @@ export function HeroSection() {
               rel="noreferrer"
               className="px-5 py-2.5 rounded-md bg-signal text-bg font-sans text-sm font-medium transition-all duration-200 hover:bg-signal-dim hover:shadow-[0_0_28px_-6px_var(--color-signal)] active:scale-[0.97]"
             >
-              See Resume
+              Resume
             </a>
             <a href={socialLinks.github} target="_blank" rel="noreferrer" className="w-10 h-10 flex items-center justify-center rounded-md border border-border text-dim transition-all duration-200 hover:text-text hover:border-muted hover:bg-elevated active:scale-[0.94]" aria-label="GitHub">
               <GithubIcon />

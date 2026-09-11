@@ -27,10 +27,10 @@ const ibmPlexMono = IBM_Plex_Mono({
 
 export const metadata: Metadata = {
   title: `${hero.name} — ${hero.title}`,
-  description: hero.description,
+  description: hero.description.join(" "),
   openGraph: {
     title: `${hero.name} — ${hero.title}`,
-    description: hero.description,
+    description: hero.description.join(" "),
     url: socialLinks.site,
   },
 };

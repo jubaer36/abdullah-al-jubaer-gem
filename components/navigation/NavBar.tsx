@@ -2,13 +2,11 @@ import { hero } from "@/data/hero";
 
 const navLinks = [
   { href: "#skills", label: "Skills" },
-  { href: "#moments", label: "Lately" },
   { href: "#experience", label: "Experience" },
   { href: "#education", label: "Education" },
   { href: "#research", label: "Research" },
   { href: "#projects", label: "Projects" },
   { href: "#achievements", label: "Achievements" },
-  { href: "#now", label: "Now" },
   { href: "#hobbies", label: "Beyond work" },
   { href: "#contact", label: "Contact" },
 ];

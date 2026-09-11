@@ -10,7 +10,7 @@ export function EducationSection() {
       <Reveal>
         <SectionLabel num="04" label="Education" />
         <h2 className="font-display font-bold text-[clamp(28px,5vw,52px)] leading-[1.05] mb-12 text-text">
-          Learning Homes
+          Alma Maters
         </h2>
       </Reveal>
 
