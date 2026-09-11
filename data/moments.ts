@@ -14,57 +14,57 @@ type Group = {
 const groups: Group[] = [
   {
     folder: "IUT_Datathon",
-    meta: "IUT Datathon · Organizer",
+    meta: "IUT Datathon",
     shots: [
       {
         file: "Event Head ID Card.jpg",
-        title: "IUT Datathon",
-        caption: "Event-head ID card for the datathon I organized at IUT.",
+        title: "Organizer ID card",
+        caption: "Event head ID card for the datathon I organized at IUT.",
       },
       {
         file: "Running the Onsite event.jpg",
-        title: "IUT Datathon",
+        title: "Running the onsite event",
         caption: "Running the onsite event on competition day.",
       },
       {
         file: "Onsite presentation .jpg",
-        title: "IUT Datathon",
+        title: "Onsite presentations",
         caption: "Teams presenting their solutions onsite.",
       },
       {
         file: "Running and scoring for the presentation time.jpg",
-        title: "IUT Datathon",
+        title: "Scoring the presentations",
         caption: "Coordinating and scoring the presentation round.",
       },
       {
         file: "Prize giving.JPG",
-        title: "IUT Datathon",
-        caption: "Prize-giving ceremony for the winning teams.",
+        title: "Prize giving ceremony",
+        caption: "Prize giving ceremony for the winning teams.",
       },
       {
         file: "Token of appreciation presented to me.jpg",
-        title: "IUT Datathon",
+        title: "Token of appreciation",
         caption: "Receiving a token of appreciation for organizing the event.",
       },
     ],
   },
   {
     folder: "Bubt Datathon",
-    meta: "BUBT Datathon · Participant",
+    meta: "BUBT Datathon",
     shots: [
       {
         file: "Presentation Time.jpeg",
-        title: "BUBT Datathon",
+        title: "Presenting to the judges",
         caption: "Presenting our team's solution to the judges.",
       },
       {
         file: "Presentation Time 2.jpg",
-        title: "BUBT Datathon",
+        title: "Walking through our approach",
         caption: "Walking through our approach during the presentation round.",
       },
       {
         file: "Prize Giving Ceremony.jpeg",
-        title: "BUBT Datathon",
+        title: "Prize-giving ceremony",
         caption: "Prize-giving ceremony at the close of the datathon.",
       },
     ],
@@ -75,39 +75,39 @@ const groups: Group[] = [
     shots: [
       {
         file: "Hackathon time late night.jpg",
-        title: "IUT Hackathon",
+        title: "Late-night build session",
         caption: "Late-night build session during the hackathon.",
       },
       {
         file: "Evaluation ongoing.jpg",
-        title: "IUT Hackathon",
+        title: "Project evaluation",
         caption: "Project evaluation underway with the judges.",
       },
       {
         file: "hackathon-runnersuptrophy.jpeg",
-        title: "IUT Hackathon",
+        title: "Runners-up trophy",
         caption: "Runners-up trophy from the hackathon.",
       },
     ],
   },
   {
     folder: "Project Aqua",
-    meta: "Project Aqua · Software Team",
+    meta: "Project Aqua",
     shots: [
       {
         file: "Drain Cleaning Bot Prototype.jpg",
-        title: "Project Aqua",
+        title: "Drain-cleaning bot prototype",
         caption: "Drain-cleaning bot prototype built by the team.",
       },
       {
         file: "UIU Visit.jpeg",
-        title: "Project Aqua",
+        title: "Team visit to UIU",
         caption: "Team visit to UIU.",
       },
       {
         file: "UIU Visit2.jpeg",
-        title: "Project Aqua",
-        caption: "Team visit to UIU.",
+        title: "Team visit to UIU",
+        caption: "Another shot from the team's visit to UIU.",
       },
     ],
   },
