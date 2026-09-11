@@ -86,8 +86,8 @@ function NodeGraph() {
 
 export function HeroSection() {
   return (
-    <section className="min-h-[85vh] flex flex-col justify-center px-6 md:px-12 py-24 border-b border-border">
-      <div className="flex items-center justify-between gap-12">
+    <section className="min-h-[85vh] flex flex-col justify-center px-6 md:px-12 py-16 sm:py-20 md:py-24 border-b border-border">
+      <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-12">
         <div className="max-w-2xl">
           <div className="inline-flex items-center gap-2 mb-6 px-3 py-1.5 rounded-full border border-border bg-surface">
             <span className="relative flex h-1.5 w-1.5 rounded-full bg-signal node-pulse" />
@@ -130,7 +130,7 @@ export function HeroSection() {
 
           <div className="grid grid-cols-3 max-w-md border-t border-border pt-6">
             {hero.stats.map((stat, i) => (
-              <div key={stat.label} className={i < hero.stats.length - 1 ? "border-r border-border pr-4" : "pl-4"}>
+              <div key={stat.label} className={i < hero.stats.length - 1 ? "border-r border-border pr-2 sm:pr-4" : "pl-2 sm:pl-4"}>
                 <p className="font-display font-bold text-2xl md:text-3xl text-text">
                   {stat.value}
                   <span className="text-signal">{stat.suffix}</span>

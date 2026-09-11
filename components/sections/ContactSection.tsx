@@ -18,7 +18,7 @@ export function ContactSection() {
 
         <a
           href={socialLinks.email}
-          className="inline-block rounded-md bg-signal px-5 py-2.5 font-sans text-sm font-medium text-bg transition-all duration-200 hover:bg-signal-dim hover:shadow-[0_0_28px_-6px_var(--color-signal)] active:scale-[0.97] mb-8"
+          className="inline-block max-w-full break-all rounded-md bg-signal px-5 py-2.5 font-sans text-sm font-medium text-bg transition-all duration-200 hover:bg-signal-dim hover:shadow-[0_0_28px_-6px_var(--color-signal)] active:scale-[0.97] mb-8"
         >
           {socialLinks.email.replace("mailto:", "")}
         </a>
