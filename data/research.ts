@@ -7,25 +7,18 @@ type Research = {
 
 export const research: Research[] = [
   {
-    title: "Graph Based Multimodal Emotion Recognition in Conversations",
-    status: "Undergraduate Thesis, In Progress",
-    bullets: [
-      "Conducted module level ablations across SOTA and isolated which components drive performance versus which are redundant, informing design choices for confusable emotion class discrimination.",
-      "Designed multiple graph based fusion architectures to address modality imbalance, and underutilization of the visual modality and similar emotion confusion problem.",
-    ],
-    link: "https://github.com/jubaer36/Hopeful",
-  },
-  {
     title: "Alikbachan: Bengali LLM Hallucination Benchmark",
-    status: "Submitted to ACL, Under Review",
+    status: "Accepted to EACL Findings",
     bullets: [
-      "Tested frontier AI models on a 7,500+ item Bengali benchmark to see how well they hallucinated answers.",
-      "Generated model confidence scores (log-probabilities) on benchmark responses to test if they could flag token level hallucinations.",
+      "Designed and curated the Bengali hallucination benchmark in collaboration with EBLICT and IPD.",
+      "Benchmarked frontier LLMs on a 7,500+ item Bengali dataset, evaluating factual accuracy per response.",
+      "Generated model confidence scores on benchmark responses to test if they could flag token level hallucinations.",
     ],
+    link: "https://alikbachan.github.io/",
   },
   {
     title: "EthMuSAM: Zero-Shot Industrial Anomaly Detection",
-    status: "CVPR Workshop",
+    status: "CVPR Workshop Challenge",
     bullets: [
       "Zero-shot framework that detects defects in unseen product types without training.",
       "DINOv3-MuSc scoring locates suspect regions; cascaded SAM refines precise defect masks.",

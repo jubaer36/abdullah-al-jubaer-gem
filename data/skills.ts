@@ -24,7 +24,7 @@ export const skillGroups = [
     title: "Machine Learning & Research",
     capabilities: [
       "Training and fine-tuning models with PyTorch, TensorFlow, and Keras",
-      "Researching multimodal emotion recognition, anomaly detection, and NLP",
+      "Adapting and post-training LLMs; researching multimodal emotion recognition, anomaly detection, and NLP",
       "Building ML pipelines with NumPy, scikit-learn, and Pandas",
     ],
     skills: [
@@ -32,9 +32,14 @@ export const skillGroups = [
       "PyTorch",
       "TensorFlow",
       "Keras",
+      "Hugging Face",
+      "LangChain",
       "scikit-learn",
       "NumPy",
       "Pandas",
+      "pgvector",
+      "Pinecone",
+      "Chroma",
       "ROS2",
     ],
   },

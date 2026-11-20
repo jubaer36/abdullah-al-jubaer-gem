@@ -13,6 +13,17 @@ type Group = {
 
 const groups: Group[] = [
   {
+    folder: "Graduation",
+    meta: "IUT · 38th Convocation",
+    shots: [
+      {
+        file: "38th Convocation.jpg",
+        title: "Graduation day",
+        caption: "Receiving my BSc in Computer Science and Engineering at IUT's 38th Convocation.",
+      },
+    ],
+  },
+  {
     folder: "IUT_Datathon",
     meta: "IUT Datathon",
     shots: [

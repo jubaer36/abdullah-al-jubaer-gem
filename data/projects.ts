@@ -16,6 +16,12 @@ type Project = {
 
 export const projects: Project[] = [
   {
+    name: "Source-Grounded Legal Q&A Assistant — Bangladesh Criminal Procedure",
+    desc: "Answers questions on the Code of Criminal Procedure and its amendments with section-level citations. RAG pipeline retrieves the relevant sections and has an LLM answer only from them instead of guessing.",
+    stack: ["Python", "FastAPI", "Next.js", "Supabase", "pgvector"],
+    github: "https://github.com/jubaer36/ainshonglap",
+  },
+  {
     name: "BizTrack — AI-Driven Business Management Platform",
     desc: "Full-stack platform with AI-driven financial analysis, risk alerts, and weather-aware demand forecasting. Next.js dashboard with customer/retention analytics, Supabase auth, Dockerized deployment.",
     stack: ["Next.js", "Express.js", "Supabase", "TypeScript", "Docker"],

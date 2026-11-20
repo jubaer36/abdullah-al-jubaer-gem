@@ -2,7 +2,7 @@ export const education = [
   {
     schoolName: "Islamic University of Technology (IUT-OIC)",
     subHeader: "BSc. in Computer Science and Engineering",
-    duration: "2022 — September 2026 (Expected)",
+    duration: "2022 — 2026",
     grade: "CGPA: 3.75",
   },
   {

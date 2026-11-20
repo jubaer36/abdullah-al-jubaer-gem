@@ -6,14 +6,6 @@ type CurrentItem = {
 
 export const current: CurrentItem[] = [
   {
-    title: "Source-Grounded Legal Q&A Assistant",
-    meta: "Independent Research · Bangladesh Code of Criminal Procedure",
-    points: [
-      "Answers questions on the Code of Criminal Procedure and its amendments with section-level citations.",
-      "RAG pipeline retrieves the relevant sections and has an LLM answer only from them instead of guessing.",
-    ],
-  },
-  {
     title: "EthMuSAM — Zero-Shot Industrial Anomaly Detection",
     meta: "CVPR Workshop",
     points: [
@@ -24,17 +16,17 @@ export const current: CurrentItem[] = [
   },
   {
     title: "Graph-Based Multimodal Emotion Recognition in Conversations",
-    meta: "Undergraduate Thesis · Submitted to WACV, under review",
+    meta: "Thesis",
     points: [
       "Module-level ablations across SOTA models to isolate which components drive performance versus which are redundant, informing design choices for confusable emotion-class discrimination.",
       "Designed multiple graph-based fusion architectures addressing modality imbalance, visual-modality underutilization, and similar-emotion confusion.",
     ],
   },
   {
-    title: "Knee Abnormality Detection Challenge",
-    meta: "Kaggle Competition · ongoing",
+    title: "The Language Divide for Zero-Resource Language",
+    meta: "Research · Ongoing",
     points: [
-      "Building models to detect knee abnormalities from medical imaging for the hosted Kaggle challenge.",
+      "Evaluating open-weight and frontier models on a four-way parallel Chakma sentiment dataset.",
     ],
   },
   {
