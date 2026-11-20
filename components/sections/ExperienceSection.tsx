@@ -23,17 +23,14 @@ export function ExperienceSection() {
                   <p className="font-display font-semibold text-base text-text">{job.company}</p>
                   <p className="text-xs text-signal font-medium mt-1">{job.role}</p>
                   <p className="text-xs text-dim font-mono mt-1">{job.date}</p>
-                  <p className="text-sm text-soft leading-relaxed mt-3">{job.desc}</p>
-                  {job.bullets.length > 0 && (
-                    <ul className="mt-3 space-y-1.5">
-                      {job.bullets.map((b) => (
-                        <li key={b} className="flex gap-2 text-xs text-dim leading-relaxed">
-                          <span className="text-edge">—</span>
-                          {b}
-                        </li>
-                      ))}
-                    </ul>
-                  )}
+                  <ul className="mt-3 space-y-1.5">
+                    {[job.desc, ...job.bullets].map((point) => (
+                      <li key={point} className="flex gap-2 text-sm text-soft leading-relaxed">
+                        <span className="text-edge mt-0.5">—</span>
+                        {point}
+                      </li>
+                    ))}
+                  </ul>
                 </>
               }
             >
